@@ -1,0 +1,173 @@
+.text
+{
+float: left;
+}
+
+h1
+{
+text-align: center;
+}
+
+h3
+{
+font-size: 1.5em;
+}
+
+.para1
+{
+float: right;
+text-align: left;
+list-style-position: inside;
+}
+
+.div2
+{
+float: right;
+}
+
+.div1
+{
+float: left;
+}
+
+.highlight
+{
+background-color: #FFB6C1;
+}
+
+body
+{
+font-size: 17px;
+margin-left: 250px;
+margin-right: 250px;
+word-break: keep-all;
+}
+
+.underline
+{
+text-decoration: underline;
+}
+
+.nounderline
+{
+list-style: none;
+}
+
+a:link
+{
+color: black;
+}
+
+a:hover
+{
+color: blue;
+}
+
+a:visited
+{
+color: purple;
+}
+
+.center
+{
+	text-align: center;
+}
+
+header h2
+{
+	text-decoration: underline; 
+	background-color: black;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	height: auto;
+}
+
+nav li
+{
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav li a 
+{
+	margin-right: 20px;
+	color: black;
+	text-decoration: none;
+	padding: 5px;
+    background-color: #000000; 
+}
+
+nav ul
+{
+	text-align: center;
+	list-style-type: none;
+}
+
+nav li a:hover
+{
+	opacity: 0.3;
+}
+
+.active
+{
+	background-color: white;
+}
+
+.divs
+{
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 67%;
+	padding: 0px;
+	margin: 0px;
+	position: fixed;
+	top: 0;
+}
+
+footer aside ul
+{
+	margin-right: 43px;
+}
+
+footer ul li
+{
+	list-style-type: none;
+	text-align: center;
+}
+
+.img
+{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	width: 200px;
+	height: 200px;
+}
+
+section article
+{
+	border-top: solid 1px black;
+}	
+
+.post-p
+{
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
+}
+
+.post-p-header 
+{
+	text-decoration: underline; 
+	background-color: black;
+	color: white;
+	padding: 2px;
+}
+
+.faq-top-border
+{
+	border-top: solid 1px black;
+	padding-top: 20px;
+}
