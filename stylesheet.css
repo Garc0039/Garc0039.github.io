@@ -127,24 +127,13 @@ nav li a:hover
 	top: 0;
 }
 
-footer aside ul
-{
-	margin-right: 43px;
-}
-
-footer ul li
-{
-	list-style-type: none;
-	text-align: center;
-}
-
 .img
 {
 	display: block;
 	margin-left: auto;
     margin-right: auto;
-	width: 200px;
-	height: 200px;
+	width: 100px;
+	height: 100px;
 }
 
 section article
@@ -170,4 +159,21 @@ section article
 {
 	border-top: solid 1px black;
 	padding-top: 20px;
+}
+
+footer aside ul li
+{
+	display: inline;
+	font-size: 12px; 
+	padding-right: 5px;
+}
+
+footer aside ul
+{
+	padding-top: 5px; 
+}
+
+footer aside
+{
+	border-top: solid 1px black;
 }
