@@ -216,6 +216,26 @@ main article ul li a:hover
 	color: pink;
 }
 
+footer aside ul li a
+{
+	color: purple;
+}
+
+footer aside ul li a:hover
+{
+	color: blue;
+}
+
+a
+{
+	color: pink;
+}
+
+a:hover
+{
+	color: black;
+}
+
 @media (max-width: 400px)
 {
 	body
