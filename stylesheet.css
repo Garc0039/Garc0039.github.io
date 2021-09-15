@@ -32,7 +32,7 @@ float: left;
 
 .highlight
 {
-background-color: #FFB6C1;
+background-color: pink;
 }
 
 body
@@ -53,17 +53,17 @@ text-decoration: underline;
 list-style: none;
 }
 
-a:link
+article p ul li a:link
 {
 color: black;
 }
 
-a:hover
+article p ul li a:hover
 {
 color: blue;
 }
 
-a:visited
+article p ul li a:visited
 {
 color: purple;
 }
@@ -83,23 +83,32 @@ header h2
 	height: auto;
 }
 
-nav li
+nav
 {
-	display: inline;
-}
-
-nav li a 
-{
-	margin-right: 20px;
-	text-decoration: none;
-    background-color: #000000; 
-	font-size: 20px;
+	width: 420px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 nav ul
 {
-	text-align: center;
-	list-style-type: none;
+	list-style-type: none;	
+}
+
+nav ul li 
+{
+	display: inline;
+	font-size: 20px;
+	
+}
+
+nav ul li a 
+{
+	background-color: #000000;
+	margin-right: 10px;
+	text-decoration: none;
+	color: white;
+	padding: 3px;
 }
 
 nav li a:hover
@@ -111,9 +120,7 @@ nav li a:hover
 {
 	background-color: white;
 	color: black;
-	border: solid 1px black;
-	font-size: 20px;
-	padding: 3px 3px;
+	border: 1px solid black;
 }
 
 .divs
@@ -197,4 +204,25 @@ td
 	border: 1px solid black; 
 	text-align: center;
 	padding: 5px;
+}
+
+main article ul li a 
+{
+	color: black;
+}
+
+main article ul li a:hover
+{
+	color: pink;
+}
+
+@media (max-width: 400px)
+{
+	body
+	{
+		font-size: 12px;
+		margin-left: 100px;
+		margin-right: 100px;
+		word-break: keep-all;
+	}
 }
